@@ -1,14 +1,14 @@
 '''Question 1'''
 
-inputstring=input("Enter string here :")
+string=input("Enter string here :")
 #Creating empty string
 revstring=""
 
-#Each element from inputstring is added from left side 
-for i in inputstring:
+
+for i in string:
     revstring=i+revstring
 
-print(revstring)        
+print('Reversed string :',revstring)        
 
 '''Question 2'''
 lowlimit=int(input("Insert lower limit for range: "))
